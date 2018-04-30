@@ -1,9 +1,6 @@
 {
-  "functions": {
-    "source": "dist-server"
-  },
   "hosting": {
-    "public": "dist-server/dist",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -11,11 +8,7 @@
     ],
     "rewrites": [
       {
-        "source": "/",
-        "function": "trigger"
-      },
-      {
-        "source": "/*",
+        "source": "**",
         "function": "trigger"
       }
     ]

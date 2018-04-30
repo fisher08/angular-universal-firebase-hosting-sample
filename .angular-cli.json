@@ -31,7 +31,7 @@
     {
       "platform": "server",
       "root": "src",
-      "outDir": "dist-server",
+      "outDir": "functions/dist-server",
       "assets": [
         "assets",
         "favicon.ico"
@@ -42,9 +42,6 @@
       "tsconfig": "tsconfig.server.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
-      "styles": [
-        "styles.css"
-      ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
